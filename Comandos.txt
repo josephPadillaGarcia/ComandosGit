@@ -8,4 +8,47 @@ Comando:  git init
 Comando:  git status
 
 
-/*  */
+/* Agregar archivos al staging area */
+
+Comando:   git add <file>
+	   git add . (para agregar todos los archivos al mismo tiempo)
+
+
+/* Configurar el email del usurio */
+
+Comando:   git config --global user.email "<correo>"
+
+
+/* Configurar el nombre del usuario */
+
+Comando:   git config --global user.name "<nombre>"
+
+
+/* Crear commit (agregar mensaje a los commit ) */
+
+Comando:   git commit   (te redirecciona a un editor de texto dentro de git)
+			> precionar tecla (i) para tipear
+			> escribir :wq para cerrar el editor
+			
+	   git commit -m "<mensaje>" (crear directamente el mensaje y el commit)
+
+
+/* Ver todos los Commit creados */
+
+Comando:   git log
+
+
+/* Revertir los cambios de los archivos */
+
+Comando:   git checkout -- <file>
+
+
+/* Ver los cambios hechos en los archivos */
+
+Comando:   git diff <file>
+
+
+
+
+
+
