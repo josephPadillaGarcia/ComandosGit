@@ -1,0 +1,11 @@
+/* Inicializar un Proyecto Nuevo  */
+
+Comando:  git init
+
+
+/* Para ver que archivos estamos trabajando */
+
+Comando:  git status
+
+
+/*  */
