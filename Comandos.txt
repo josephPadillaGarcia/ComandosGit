@@ -47,6 +47,27 @@ Comando:   git checkout -- <file>
 
 Comando:   git diff <file>
 
+/*===============================================*/
+/* Agregar a un repositorio remoto */
+
+Comando:   git remote add origin <link del repositorio creado previamente en GitHub>
+
+
+/* Para envir nuestro codigo a la nube */
+
+Comando:   git push origin master
+
+
+/* Clonar un repositorio */
+
+Comando:   git clone <la ubicacion del repositorio (link dle repositorio)>
+
+
+/* Para que nos entregue el codigo de un remoto */
+
+Comando:   git pull origin master
+
+
 
 
 
