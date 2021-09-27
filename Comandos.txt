@@ -67,6 +67,15 @@ Comando:   git clone <la ubicacion del repositorio (link dle repositorio)>
 
 Comando:   git pull origin master
 
+/*======================================================*/
+/* Crear nueva rama en GIT */
+
+comando: git branch <nombre de la nueva rama>
+
+/* Cambiar de rama */
+
+comando: git checkout <nombre de la rama>
+
 
 
 
