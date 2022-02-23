@@ -63,6 +63,10 @@ Comando:   git push origin master
 Comando:   git clone <la ubicacion del repositorio (link dle repositorio)>
 
 
+/* Clonar repositorio con una rama en especifico */
+git clone https://gitlab.com/play-group-software-factory/lider-web-app.git -b <nombre de la rama> --single-branch 
+
+
 /* Para que nos entregue el codigo de un remoto */
 
 Comando:   git pull origin master
